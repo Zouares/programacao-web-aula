@@ -8,6 +8,11 @@
 .entradas-formulario {
 
     border: 1px solid;
+    text-align: center;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
    
 }
 
