@@ -1,13 +1,13 @@
 body {
 
-    height: 100%;
+    height: 70vh;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #e3f2fc;
-    
+    background-color: #1B262C;
+    font-family: "Anek Devanagari", sans-serif;
 
 
 }
@@ -15,10 +15,12 @@ body {
 
 #titulo {
 
-    color: rgb(25, 0, 255);
+    color: #BBE1FA;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    
 }
+
 
 .entradas-formulario {
 
@@ -34,7 +36,11 @@ body {
   top: 50%;
   left: 50%;
   transform:translate(-50%,-50%);
-
+  width: 300px;
+  border: 15px solid #0F4C75;
+  background-color: #0F4C75;
+  border-radius: 10px;
+  margin: 0 auto;
 
   
 }
@@ -80,5 +86,6 @@ body {
     bottom: 0%;
     padding: 5px;
     width: auto;
+    color: #BBE1FA;
 
 }
