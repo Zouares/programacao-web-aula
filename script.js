@@ -11,5 +11,4 @@ function submeter() {
    console.log(elementoIdade);
    console.log(elementoCpf);
   
-
 }
