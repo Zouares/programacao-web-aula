@@ -6,7 +6,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #eee1e1;
+    background-color: #e3f2fc;
+    
 
 
 }
@@ -21,53 +22,43 @@ body {
 
 .entradas-formulario {
 
-  background-color: #fff;
-  border: 2px solid #ddd;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-  width:100%;
-  max-width: 400px;
   
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+
+
   
 }
 
-#nome-imput {
+#nome-input {
 
-    
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 1em;
-    margin-bottom: 10px;
+    padding: 10px;    
     width: 100%;
     box-sizing: border-box;
-    
-
 
 }
 
 #idade-input {
 
     padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 1em;
-    margin-bottom: 10px;
     width: 100%;
     box-sizing: border-box;
-
+  
 
 }
 
 #cpf-input {
 
     padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 1em;
-    margin-bottom: 10px;
     width: 100%;
     box-sizing: border-box;
 
@@ -75,38 +66,19 @@ body {
 
 #botao {
 
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    background-color: #0044ff;
-    color: #f3f6ff;
-    font-size: 1em;
-    cursor: pointer;
-    transition-duration: 0.2s;
-   
+    padding: 10px;
+    margin: 10px;
     
     
 }
 
-#botao:hover {
-
-    background-color: #002897;
-    
-
-}
 
 
 #Rodape {
 
     position: fixed;
     bottom: 0%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 13px;
-    color: black;
-    z-index: 15;
-    padding: 10px 0;
-    background-color: #fff;
+    padding: 5px;
+    width: auto;
 
 }
