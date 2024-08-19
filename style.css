@@ -13,6 +13,8 @@ body {
 }
 
 
+
+
 #titulo {
 
     color: #BBE1FA;
@@ -40,24 +42,39 @@ body {
   border: 15px solid #0F4C75;
   background-color: #0F4C75;
   border-radius: 10px;
- 
-
+  
+  
   
 }
 
 #nome-input {
-
+    
+    margin-bottom: 10px;
     padding: 10px;    
     width: 100%;
     box-sizing: border-box;
+    border-radius: 40px;
+
+}
+
+#email-input {
+
+    margin-bottom: 10px;
+    padding: 10px;    
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 40px;
+
 
 }
 
 #idade-input {
 
+    margin-bottom: 10px;
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
+    border-radius: 40px;
   
 
 }
@@ -67,6 +84,7 @@ body {
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
+    border-radius: 40px;
 
 }
 
@@ -89,3 +107,4 @@ body {
     color: #BBE1FA;
 
 }
+
