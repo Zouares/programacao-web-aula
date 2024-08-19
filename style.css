@@ -127,9 +127,9 @@ body {
 .input:focus ~ .user-label,
 .input:valid ~ .user-label {
     transform: translateY(-50%) scale(0.8);
-    background-color: #212121;
+    background-color: #0F4C75;
     padding: 0 .2em;
-    color: #2196f3;
+    color: #e8e8e8;
 }
 
 #botao {
