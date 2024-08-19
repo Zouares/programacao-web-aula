@@ -17,14 +17,17 @@ function submeter() {
    console.log(valideEmail(elementoEmail));
    if (valideEmail(elementoEmail)) {
        alert("Email válido!");
-   } else {
-       alert("Email inválido. Por favor, insira um email válido.");
-   }
+    } else {
+        alert("Email inválido. Por favor, insira um email válido.");
+    }
+    
+    console.log(valideCpf(elementoCpf));
+    if (valideCpf(elementoCpf)) {
+        alert("CPF válido!");
+    } else {
+        alert("CPF inválido. Por favor, insira um CPF válido.");
+    }
 }
-
-
-
-
 
 
 function valideEmail(email) {
@@ -33,3 +36,11 @@ function valideEmail(email) {
 }
 
 
+
+
+
+function valideCpf(cpf) {
+
+    const pattern = /^\d{3}\.\d{3}\.\d{3}-\d{2}$/;
+    return pattern.test(cpf);
+}
