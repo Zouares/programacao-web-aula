@@ -15,11 +15,21 @@ function submeter() {
 
   
    console.log(valideEmail(elementoEmail));
+   if (valideEmail(elementoEmail)) {
+       alert("Email válido!");
+   } else {
+       alert("Email inválido. Por favor, insira um email válido.");
+   }
 }
+
+
+
+
+
 
 function valideEmail(email) {
-    return /^[/w]+@[/w]+.[a-zA-Z]/.test(email)
-
-
-    
+    const pattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,6}$/;
+    return pattern.test(email);
 }
+
+
